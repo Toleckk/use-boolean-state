@@ -3,3 +3,6 @@ node_js:
   - 8
 env:
   - SKIP_PREFLIGHT_CHECK=true
+
+script:
+  yarn test --coverage
