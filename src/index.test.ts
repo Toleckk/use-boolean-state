@@ -1,8 +1,5 @@
-import {useBooleanState} from './'
+import useBooleanState from './'
 import {renderHook, act} from "@testing-library/react-hooks"
-
-
-jest.useFakeTimers()
 
 describe.each([true, false])(
   'useBooleanState',

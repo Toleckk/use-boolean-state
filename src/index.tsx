@@ -9,3 +9,5 @@ export const useBooleanState = (initialState: Boolean): [Boolean, () => void, ()
 
   return [state, setTrue, setFalse, toggle, setState]
 }
+
+export default useBooleanState
