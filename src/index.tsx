@@ -1,23 +1,11 @@
-import * as React from 'react';
+import {useCallback, useState} from "react"
 
-export const useMyHook = () => {
-  let [{
-    counter
-  }, setState] = React.useState<{
-    counter: number;
-  }>({
-    counter: 0
-  });
+export const useBooleanState = (initialState: Boolean): [Boolean, () => void, () => void, () => void, (state: Boolean) => void] => {
+  const [state, setState] = useState(initialState)
 
-  React.useEffect(() => {
-    let interval = window.setInterval(() => {
-      counter++;
-      setState({counter})
-    }, 1000)
-    return () => {
-      window.clearInterval(interval);
-    };
-  }, []);
+  const setTrue = useCallback(() => setState(true), [setState])
+  const setFalse = useCallback(() => setState(false), [setState])
+  const toggle = useCallback(() => setState(!state), [setState, state])
 
-  return counter;
-};
+  return [state, setTrue, setFalse, toggle, setState]
+}
