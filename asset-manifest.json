@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/use-boolean-state/static/css/main.29646cd2.chunk.css",
+    "main.css": "/use-boolean-state/static/css/main.24bf94cd.chunk.css",
     "main.js": "/use-boolean-state/static/js/main.386f06ac.chunk.js",
     "main.js.map": "/use-boolean-state/static/js/main.386f06ac.chunk.js.map",
     "runtime-main.js": "/use-boolean-state/static/js/runtime-main.2a2f0cba.js",
@@ -9,10 +9,10 @@
     "static/js/2.6da2136a.chunk.js": "/use-boolean-state/static/js/2.6da2136a.chunk.js",
     "static/js/2.6da2136a.chunk.js.map": "/use-boolean-state/static/js/2.6da2136a.chunk.js.map",
     "index.html": "/use-boolean-state/index.html",
-    "precache-manifest.b92894653f9b23ffac0b1d85788c64b7.js": "/use-boolean-state/precache-manifest.b92894653f9b23ffac0b1d85788c64b7.js",
+    "precache-manifest.e036e699b5744d5ed6337fcaeec22ed7.js": "/use-boolean-state/precache-manifest.e036e699b5744d5ed6337fcaeec22ed7.js",
     "service-worker.js": "/use-boolean-state/service-worker.js",
     "static/css/2.764ccc25.chunk.css.map": "/use-boolean-state/static/css/2.764ccc25.chunk.css.map",
-    "static/css/main.29646cd2.chunk.css.map": "/use-boolean-state/static/css/main.29646cd2.chunk.css.map",
+    "static/css/main.24bf94cd.chunk.css.map": "/use-boolean-state/static/css/main.24bf94cd.chunk.css.map",
     "static/js/2.6da2136a.chunk.js.LICENSE.txt": "/use-boolean-state/static/js/2.6da2136a.chunk.js.LICENSE.txt",
     "static/media/cat-dark.svg": "/use-boolean-state/static/media/cat-dark.c0b39f13.svg",
     "static/media/cat-light.svg": "/use-boolean-state/static/media/cat-light.5cfcd660.svg"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.2a2f0cba.js",
     "static/css/2.764ccc25.chunk.css",
     "static/js/2.6da2136a.chunk.js",
-    "static/css/main.29646cd2.chunk.css",
+    "static/css/main.24bf94cd.chunk.css",
     "static/js/main.386f06ac.chunk.js"
   ]
 }
