@@ -7,21 +7,30 @@
 ## Install
 
 ```bash
+yarn add use-boolean-state
+```
+
+or if you use npm
+
+```bash
 npm install --save use-boolean-state
 ```
 
 ## Usage
 
-```tsx
-import * as React from 'react'
-
-import { useMyHook } from 'use-boolean-state'
+```jsx
+import React from 'react'
+import useBooleanState from 'use-boolean-state'
 
 const Example = () => {
-  const example = useMyHook()
+  const [showing, show, close, toggle] = useBooleanState(false)
+
   return (
     <div>
-      {example}
+      <button onClick={show}>Show</button>
+      <button onClick={close}>Close</button>
+      <button onClick={toggle}>Toggle</button>
+      {showing && <div>Meow</div>}
     </div>
   )
 }
