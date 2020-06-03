@@ -1,11 +1,12 @@
 {
   "name": "use-boolean-state",
   "version": "1.0.0",
-  "description": "React hook providing functions for boolean state management",
+  "description": "React hook providing functions for boolean state handling",
   "author": "Toleckk",
   "license": "MIT",
   "repository": "Toleckk/use-boolean-state",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
   "engines": {
