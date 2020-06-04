@@ -36,6 +36,8 @@ const Example = () => {
 }
 ```
 
+[Demo](https://toleckk.github.io/use-boolean-state)
+
 ## License
 
 MIT © [Toleckk](https://github.com/Toleckk)
