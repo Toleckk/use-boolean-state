@@ -3,7 +3,7 @@ import {renderHook, act} from "@testing-library/react-hooks"
 
 describe.each([true, false])(
   'useBooleanState',
-  (initialValue: Boolean) => {
+  (initialValue: boolean) => {
     it('should keep default value', () => {
       const {result} = renderHook(() => useBooleanState(initialValue))
 
@@ -46,7 +46,7 @@ describe.each([true, false])(
 
     test.each([true, false])(
       'should set value by fifth element',
-      (futureValue: Boolean) => {
+      (futureValue: boolean) => {
         const {result} = renderHook(() => useBooleanState(initialValue))
 
         const setState = result.current[4]
