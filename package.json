@@ -1,6 +1,6 @@
 {
   "name": "use-boolean-state",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "React hook providing functions for boolean state handling",
   "author": "Toleckk",
   "license": "MIT",
