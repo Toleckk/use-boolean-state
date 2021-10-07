@@ -5,7 +5,7 @@ export const useBooleanState = (initialState: boolean): [boolean, () => void, ()
 
   const setTrue = useCallback(() => setState(true), [setState])
   const setFalse = useCallback(() => setState(false), [setState])
-  const toggle = useCallback(() => setState(!state), [setState, state])
+  const toggle = useCallback(() => setState(state => !state), [setState])
 
   return [state, setTrue, setFalse, toggle, setState]
 }
